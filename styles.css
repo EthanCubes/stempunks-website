@@ -1,10 +1,24 @@
+html, body {
+    margin: 0; /* Reduces border for the elements */
+    min-height: 100%;
+}
+
 body {
     background-color: #0f191f;
     font-family: "Arial", "Helvetica", sans-serif;
     color: #a9d5c3;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh; /* Make sures that the body is at least as high as the viewport, for sticking the header and footer */
 }
 
-header {
+main {
+    flex: 1; /* Expands element to fill all available space */
+}
+
+header, footer {
     background-color: #0b151b;
 }
 
