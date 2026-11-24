@@ -7,3 +7,24 @@ body {
 header {
     background-color: #0b151b;
 }
+
+button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #00b952;
+    color: white;
+
+    border: 1px solid white;
+}
+
+a {
+    color: #5eab3e;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
