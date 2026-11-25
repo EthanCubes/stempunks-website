@@ -16,15 +16,21 @@ body {
 
 main {
     flex: 1; /* Expands element to fill all available space */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header, footer {
     background-color: #0b151b;
 }
 
+header {
+    text-align: center;
+}
+
 footer {
     display: flex;
-    flex-direction: horizontal;
+    flex-direction: row;
     justify-content: space-between;
 }
 
