@@ -20,6 +20,10 @@ main {
     margin-right: 10%;
 }
 
+nav {
+    display: flex;
+}
+
 header, footer {
     background-color: #0b151b;
 }
