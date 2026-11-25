@@ -46,6 +46,8 @@ button {
     color: white;
 
     border: 0px;
+
+    cursor: pointer;
 }
 
 a {
