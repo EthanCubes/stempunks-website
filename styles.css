@@ -22,12 +22,12 @@ main {
 
 header, footer {
     background-color: #0b151b;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 header {
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 footer {
